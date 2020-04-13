@@ -1,0 +1,33 @@
+/* Common css */
+
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.7;
+	font-weight: 500;
+	font: 14px 'Open Sans', sans-serif;
+}
+
+div {
+	display: block;
+}
+
+ol,
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none !important;
+}

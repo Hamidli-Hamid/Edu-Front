@@ -1,0 +1,40 @@
+/* Header Top */
+
+.header-top {
+	width: 100%;
+	height: 42px;
+	background-color: #1F3345;
+	border-top: 2px solid #FF5D56;
+}
+
+.header-top a:hover {
+	color: #FF5D56;
+}
+
+.header-top-left {
+	float: left;
+}
+
+.header-top-left li {
+	float: left;
+	margin: 10px 30px 10px 0;
+}
+
+.header-top-left a {
+	color: white;
+}
+
+.header-top-right {
+	float: right;
+}
+
+.header-top-right li {
+	float: left;
+	margin: 10px 10px 10px 0;
+}
+
+.header-top-right a {
+	color: white;
+	font-size: 13px;
+	font-weight: 600;
+}

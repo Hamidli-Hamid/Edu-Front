@@ -1,97 +1,12 @@
-*{
-    box-sizing: border-box;
-}
-html{
-    font-size: 100%;
-}
-body{
-    margin: 0;
-    padding: 0;
-    line-height: 1.7;
-    font-weight: 500;
-    font: 14px 'Open Sans', sans-serif;
-}
-div {
-	display: block;
-}
 
-ol,ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
+//partials
 
-a{
-	text-decoration: none !important;
-}
+@import "partials/variables";
+@import "partials/mixin";
+@import "partials/common";
+@import "partials/header-top";
+@import "partials/header-nav";
 
-.header-top {
-    width: 100%;
-    height: 42px;
-    background-color: #1F3345;
-    border-top: 2px solid #F88147;
-}
-k
-.header-top-left{
-    float: left;
-}
+//pages
 
-.header-top-left li{
-    float: left;
-    margin: 10px 30px 10px 0;
-}
-.header-top-left a{
-    color: white;
-}
-
-.header-top-right{
-    float: right;
-}
-.header-top-right li{
-    float: left;
-    margin: 10px 10px 10px 0;
-}
-.header-top-right a{
-    color: white;
-    font-size: 13px;
-    font-weight: 600;
-   
-}
-
-.side-panel {
-    float: right;
-    font-size: 24px;
-    margin:4px 0 4px 20px; 
-}
-
-.side-panel a{
-    color: #737373;
-}
-
-nav{
-    width: 100%;
-    background: #fff;
-}
-
-#logo {
-    margin: 50px 30px 0 0;
-    padding: 30px 0 0 0;
-    font: 30px "Open Sans",sans-serif;
-    font-weight: 700;
-    color: #2EC7D6;
-}
-
-.menu{
-    float: right;
-}
-
-.menu li{
-    border: 1px solid black;
-    float: left;
-    padding: 24px 0;
-
-}
-.menu li a{
-    color: #1F3345;
-    padding: 8px 16px;
-}
+@import "pages/index";
